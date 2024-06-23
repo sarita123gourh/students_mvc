@@ -1,0 +1,16 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<servlet>
+			<servlet-name>SearchStudent</servlet-name>
+			<display-name>SearchStudent</display-name>
+			<description></description>
+			<servlet-class>Controller.SearchStudent</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>SearchStudent</servlet-name>
+			<url-pattern>/SearchStudent</url-pattern>
+		</servlet-mapping>
+</web-app>
