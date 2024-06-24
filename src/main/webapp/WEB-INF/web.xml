@@ -9,8 +9,38 @@
 			<description></description>
 			<servlet-class>Controller.SearchStudent</servlet-class>
 		</servlet>
+	<servlet>
+		<servlet-name>InsertStudent</servlet-name>
+		<display-name>InsertStudent</display-name>
+		<description></description>
+		<servlet-class>Controller.InsertStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteStudent</servlet-name>
+		<display-name>DeleteStudent</display-name>
+		<description></description>
+		<servlet-class>Controller.DeleteStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateStudent</servlet-name>
+		<display-name>UpdateStudent</display-name>
+		<description></description>
+		<servlet-class>Controller.UpdateStudent</servlet-class>
+	</servlet>
 		<servlet-mapping>
 			<servlet-name>SearchStudent</servlet-name>
 			<url-pattern>/SearchStudent</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+			<servlet-name>InsertStudent</servlet-name>
+			<url-pattern>/InsertStudent</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+			<servlet-name>DeleteStudent</servlet-name>
+			<url-pattern>/DeleteStudent</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+			<servlet-name>UpdateStudent</servlet-name>
+			<url-pattern>/UpdateStudent</url-pattern>
 		</servlet-mapping>
 </web-app>
